@@ -4,9 +4,9 @@
 //Catch as many of the 50 falling stars generated as possible
 
 // Pins
-const int cols[8] = {5, 7, 4, 6, 13, 3, 8, 2}; //array of pins for the columns in the 8x8 LED matrix
-const int rows[8] = {16, 15, 12, 10, 11, 18, 17, 14}; //array of pins for the rows in the 8x8 LED matrix
-const int potPin = 5; //pin for potentiometer input
+const int cols[8] = {2, 3, 4, 5, 6, 7, 8, 10}; //array of pins for the columns in the 8x8 LED matrix
+const int rows[8] = {11, 12, 13, 14, 15, 16, 17, 18}; //array of pins for the rows in the 8x8 LED matrix
+const int potPin = A5; //pin for potentiometer input
 
 int xVal; //track position of the bowl element
 int lastStar = 9; //column location of the last star generated, set to out of bounds initially so that the first star can generate anywhere
